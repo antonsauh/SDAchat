@@ -1,0 +1,12 @@
+
+What we need?
+    List holding information from the previous iteration(iteration == the run() call before the actual call)
+    List with the new information, that we have read from the file during THIS iteration
+    We should check if the file is readable File.canRead()
+    If we will have a new message, then we need to store it somewhere.
+
+
+
+
+
+First Iteration(First time run() gets called, right after doing Thread.start())
